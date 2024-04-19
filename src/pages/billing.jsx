@@ -1,17 +1,12 @@
-import Hero from "../components/Hero";
 import Navbar from "../components/shared/navbar/navbar";
 import Footer from "../components/shared/footer/Footer";
-import useFetch from "../hooks/useFetch";
-import { useEffect } from "react";
-import axios from "axios";
-import { useState } from "react";
+import BillingSection from "../components/billingSection";
 
-export default function Home() {
-
+export default function Billing() {
     return (
         <div className='overflow-x-hidden'>
             <Navbar />
-            <Hero />
+            <BillingSection />
             <Footer />
         </div>
     );

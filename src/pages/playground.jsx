@@ -1,7 +1,10 @@
+import {Button} from "@mui/material";
+import DeleteIcon from '@mui/icons-material/Delete';
+
 export default function Playground() {
   return (
-    <div>
-      <h1 className='text-3xl font-mono font-bold text-zinc-700'>Welcome to Playground!</h1>
+    <div className='w-full flex justify-center p-4'>
+        <Button variant="contained" color='success' startIcon={<DeleteIcon />}>Welcome to playground!</Button>
     </div>
   );
 }

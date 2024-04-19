@@ -1,17 +1,12 @@
-import Hero from "../components/Hero";
 import Navbar from "../components/shared/navbar/navbar";
 import Footer from "../components/shared/footer/Footer";
-import useFetch from "../hooks/useFetch";
-import { useEffect } from "react";
-import axios from "axios";
-import { useState } from "react";
+import ReservationComponent from "../components/Reservation";
 
-export default function Home() {
-
+export default function Reservation() {
     return (
         <div className='overflow-x-hidden'>
             <Navbar />
-            <Hero />
+            <ReservationComponent />
             <Footer />
         </div>
     );
